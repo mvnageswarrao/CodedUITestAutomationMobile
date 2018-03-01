@@ -1,0 +1,1473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{82BCE985-9926-43A0-8E24-9148FCC123BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MobileTestAutomation</RootNamespace>
+    <AssemblyName>MobileTestAutomation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>True</IsCodedUITest>
+    <TestProjectType>CodedUITest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="bcmail-jdk15-1.44, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\bcmail-jdk15-1.44.dll</HintPath>
+    </Reference>
+    <Reference Include="bcprov-jdk15-1.44, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\bcprov-jdk15-1.44.dll</HintPath>
+    </Reference>
+    <Reference Include="commons-logging, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\commons-logging.dll</HintPath>
+    </Reference>
+    <Reference Include="fontbox-1.8.2, Version=1.8.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\fontbox-1.8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="icu4j-3.8, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\icu4j-3.8.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Beans, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Beans.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Charsets, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Corba, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Corba.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Jdbc, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Management, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Media, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Misc, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Misc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Naming, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Naming.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Remoting, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Security, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.SwingAWT, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Text, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Util, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.API, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.OpenJDK.XML.API.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime.JNI, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IKVM.Runtime.JNI.dll</HintPath>
+    </Reference>
+    <Reference Include="jempbox-1.8.2, Version=1.8.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\jempbox-1.8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="junit, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\junit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="pdfbox-1.8.2, Version=1.8.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Pdfbox.1.1.1\lib\pdfbox-1.8.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="UITestXPathUtility">
+      <HintPath>..\..\UITestXPathUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodedUITests\MobileBooking_VO.cs" />
+    <Compile Include="CodedUITests\MobileBooking_PK.cs" />
+    <Compile Include="CodedUITests\SearchResultsPage.cs" />
+    <Compile Include="CodedUITests\SearchPage.cs" />
+    <Compile Include="CodedUITests\HomePage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIMap\ExtrasPage\clickAddCarHireButton_Map.cs">
+      <DependentUpon>clickAddCarHireButton_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickAddCarHireButton_Map.Designer.cs">
+      <DependentUpon>clickAddCarHireButton_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickRemoveButton_Map.cs">
+      <DependentUpon>clickRemoveButton_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickRemoveButton_Map.Designer.cs">
+      <DependentUpon>clickRemoveButton_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickVillaExtrasAdded_Map.cs">
+      <DependentUpon>clickVillaExtrasAdded_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickVillaExtrasAdded_Map.Designer.cs">
+      <DependentUpon>clickVillaExtrasAdded_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickVillaExtrasAll_Map.cs">
+      <DependentUpon>clickVillaExtrasAll_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickVillaExtrasAll_Map.Designer.cs">
+      <DependentUpon>clickVillaExtrasAll_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\mouseScrollAgainExtrasPage_Map.cs">
+      <DependentUpon>mouseScrollAgainExtrasPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\mouseScrollAgainExtrasPage_Map.Designer.cs">
+      <DependentUpon>mouseScrollAgainExtrasPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\mouseScrollToTransferSection_Map.cs">
+      <DependentUpon>mouseScrollToTransferSection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\mouseScrollToTransferSection_Map.Designer.cs">
+      <DependentUpon>mouseScrollToTransferSection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\mouseScrollTransferSection_Need ToDelete_Map.cs">
+      <DependentUpon>mouseScrollTransferSection_Need ToDelete_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\mouseScrollTransferSection_Need ToDelete_Map.Designer.cs">
+      <DependentUpon>mouseScrollTransferSection_Need ToDelete_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\moveScrollPage_Map.cs">
+      <DependentUpon>moveScrollPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\moveScrollPage_Map.Designer.cs">
+      <DependentUpon>moveScrollPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\moveTransferSection_Map.cs">
+      <DependentUpon>moveTransferSection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\moveTransferSection_Map.Designer.cs">
+      <DependentUpon>moveTransferSection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\scrollMouseForCarSection_Map.cs">
+      <DependentUpon>scrollMouseForCarSection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\scrollMouseForCarSection_Map.Designer.cs">
+      <DependentUpon>scrollMouseForCarSection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\scrollMouseForCheckTransferSelection_Map.cs">
+      <DependentUpon>scrollMouseForCheckTransferSelection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\scrollMouseForCheckTransferSelection_Map.Designer.cs">
+      <DependentUpon>scrollMouseForCheckTransferSelection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarConfirm_Map.cs">
+      <DependentUpon>verifyCarConfirm_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarConfirm_Map.Designer.cs">
+      <DependentUpon>verifyCarConfirm_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarFeatures_Map.cs">
+      <DependentUpon>verifyCarFeatures_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarFeatures_Map.Designer.cs">
+      <DependentUpon>verifyCarFeatures_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarHireCategory_Map.cs">
+      <DependentUpon>verifyCarHireCategory_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarHireCategory_Map.Designer.cs">
+      <DependentUpon>verifyCarHireCategory_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarHireTextMessage_Map.cs">
+      <DependentUpon>verifyCarHireTextMessage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarHireTextMessage_Map.Designer.cs">
+      <DependentUpon>verifyCarHireTextMessage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarsCategory_Map.cs">
+      <DependentUpon>verifyCarsCategory_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarsCategory_Map.Designer.cs">
+      <DependentUpon>verifyCarsCategory_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarSelection_Map.cs">
+      <DependentUpon>verifyCarSelection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyCarSelection_Map.Designer.cs">
+      <DependentUpon>verifyCarSelection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyHelpIconVillaExtras_Map.cs">
+      <DependentUpon>verifyHelpIconVillaExtras_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyHelpIconVillaExtras_Map.Designer.cs">
+      <DependentUpon>verifyHelpIconVillaExtras_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyTransferSection_Map.cs">
+      <DependentUpon>verifyTransferSection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyTransferSection_Map.Designer.cs">
+      <DependentUpon>verifyTransferSection_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyVillaExtrasAvailable_Map.cs">
+      <DependentUpon>verifyVillaExtrasAvailable_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyVillaExtrasAvailable_Map.Designer.cs">
+      <DependentUpon>verifyVillaExtrasAvailable_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyVillaExtrasMinus_Map.cs">
+      <DependentUpon>verifyVillaExtrasMinus_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyVillaExtrasMinus_Map.Designer.cs">
+      <DependentUpon>verifyVillaExtrasMinus_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickContinueFrmExtrasPage_Map.cs">
+      <DependentUpon>clickContinueFrmExtrasPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickContinueFrmExtrasPage_Map.Designer.cs">
+      <DependentUpon>clickContinueFrmExtrasPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickLaterBtn_Map.cs">
+      <DependentUpon>clickLaterBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickLaterBtn_Map.Designer.cs">
+      <DependentUpon>clickLaterBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickScrollFrmExtras_Map.cs">
+      <DependentUpon>clickScrollFrmExtras_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\clickScrollFrmExtras_Map.Designer.cs">
+      <DependentUpon>clickScrollFrmExtras_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyLeadPaxPageOpened_Map.cs">
+      <DependentUpon>verifyLeadPaxPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyLeadPaxPageOpened_Map.Designer.cs">
+      <DependentUpon>verifyLeadPaxPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyYourFltPgeShown_Map.cs">
+      <DependentUpon>verifyYourFltPgeShown_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ExtrasPage\verifyYourFltPgeShown_Map.Designer.cs">
+      <DependentUpon>verifyYourFltPgeShown_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickChangeDepAirportBtn_Map.cs">
+      <DependentUpon>clickChangeDepAirportBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickChangeDepAirportBtn_Map.Designer.cs">
+      <DependentUpon>clickChangeDepAirportBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickConfirmBtn_Map.cs">
+      <DependentUpon>clickConfirmBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickConfirmBtn_Map.Designer.cs">
+      <DependentUpon>clickConfirmBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickContinueBtn_Map.cs">
+      <DependentUpon>clickContinueBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickContinueBtn_Map.Designer.cs">
+      <DependentUpon>clickContinueBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickEditFlightsBtn_Map.cs">
+      <DependentUpon>clickEditFlightsBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickEditFlightsBtn_Map.Designer.cs">
+      <DependentUpon>clickEditFlightsBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickHideSummary_Map.cs">
+      <DependentUpon>clickHideSummary_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickHideSummary_Map.Designer.cs">
+      <DependentUpon>clickHideSummary_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickMinusForFExtras_Map.cs">
+      <DependentUpon>clickMinusForFExtras_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickMinusForFExtras_Map.Designer.cs">
+      <DependentUpon>clickMinusForFExtras_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickPlusForFExtras_Map.cs">
+      <DependentUpon>clickPlusForFExtras_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickPlusForFExtras_Map.Designer.cs">
+      <DependentUpon>clickPlusForFExtras_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickSelectFlightBtn_Map.cs">
+      <DependentUpon>clickSelectFlightBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickSelectFlightBtn_Map.Designer.cs">
+      <DependentUpon>clickSelectFlightBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickViewSummary_Map.cs">
+      <DependentUpon>clickViewSummary_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickViewSummary_Map.Designer.cs">
+      <DependentUpon>clickViewSummary_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickYesFrmHoldPopup_Map.cs">
+      <DependentUpon>clickYesFrmHoldPopup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickYesFrmHoldPopup_Map.Designer.cs">
+      <DependentUpon>clickYesFrmHoldPopup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickYesfromCheckInPop_Map.cs">
+      <DependentUpon>clickYesfromCheckInPop_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\clickYesfromCheckInPop_Map.Designer.cs">
+      <DependentUpon>clickYesfromCheckInPop_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\IsCheckInBagspopShown_Map.cs">
+      <DependentUpon>IsCheckInBagspopShown_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\IsCheckInBagspopShown_Map.Designer.cs">
+      <DependentUpon>IsCheckInBagspopShown_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\selectChngArrAirport_Map.cs">
+      <DependentUpon>selectChngArrAirport_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\selectChngArrAirport_Map.Designer.cs">
+      <DependentUpon>selectChngArrAirport_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\selectChngDepAirport_Map.cs">
+      <DependentUpon>selectChngDepAirport_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\selectChngDepAirport_Map.Designer.cs">
+      <DependentUpon>selectChngDepAirport_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\selectFlightChckBox_Map.cs">
+      <DependentUpon>selectFlightChckBox_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\selectFlightChckBox_Map.Designer.cs">
+      <DependentUpon>selectFlightChckBox_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyADWTextonFlightsPage_Map.cs">
+      <DependentUpon>verifyADWTextonFlightsPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyADWTextonFlightsPage_Map.Designer.cs">
+      <DependentUpon>verifyADWTextonFlightsPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyAmndFltsPageOpened_Map.cs">
+      <DependentUpon>verifyAmndFltsPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyAmndFltsPageOpened_Map.Designer.cs">
+      <DependentUpon>verifyAmndFltsPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\VerifyATOL_Map.cs">
+      <DependentUpon>VerifyATOL_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\VerifyATOL_Map.Designer.cs">
+      <DependentUpon>VerifyATOL_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyDftFExtras_Map.cs">
+      <DependentUpon>verifyDftFExtras_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyDftFExtras_Map.Designer.cs">
+      <DependentUpon>verifyDftFExtras_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyDftFlightDetails_Map.cs">
+      <DependentUpon>verifyDftFlightDetails_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyDftFlightDetails_Map.Designer.cs">
+      <DependentUpon>verifyDftFlightDetails_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyFExtrasDetails_Map.cs">
+      <DependentUpon>verifyFExtrasDetails_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyFExtrasDetails_Map.Designer.cs">
+      <DependentUpon>verifyFExtrasDetails_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyGrpDtlsPgeOpened_Map.cs">
+      <DependentUpon>verifyGrpDtlsPgeOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyGrpDtlsPgeOpened_Map.Designer.cs">
+      <DependentUpon>verifyGrpDtlsPgeOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyHoldItemsPopupdisplay_Map.cs">
+      <DependentUpon>verifyHoldItemsPopupdisplay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyHoldItemsPopupdisplay_Map.Designer.cs">
+      <DependentUpon>verifyHoldItemsPopupdisplay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyTotalPriceOnFlightsPage_Map.cs">
+      <DependentUpon>verifyTotalPriceOnFlightsPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyTotalPriceOnFlightsPage_Map.Designer.cs">
+      <DependentUpon>verifyTotalPriceOnFlightsPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyViewSummaryOpened_Map.cs">
+      <DependentUpon>verifyViewSummaryOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyViewSummaryOpened_Map.Designer.cs">
+      <DependentUpon>verifyViewSummaryOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyVillanFlightsTotal_Map.cs">
+      <DependentUpon>verifyVillanFlightsTotal_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\FlightsPage\verifyVillanFlightsTotal_Map.Designer.cs">
+      <DependentUpon>verifyVillanFlightsTotal_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickAbta_Map.cs">
+      <DependentUpon>clickAbta_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickAbta_Map.Designer.cs">
+      <DependentUpon>clickAbta_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickAtollink_Map.cs">
+      <DependentUpon>clickAtollink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickAtollink_Map.Designer.cs">
+      <DependentUpon>clickAtollink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickContactUs_Map.cs">
+      <DependentUpon>clickContactUs_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickContactUs_Map.Designer.cs">
+      <DependentUpon>clickContactUs_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickDesktopLink_Map.cs">
+      <DependentUpon>clickDesktopLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickDesktopLink_Map.Designer.cs">
+      <DependentUpon>clickDesktopLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickFaqLink_Map.cs">
+      <DependentUpon>clickFaqLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickFaqLink_Map.Designer.cs">
+      <DependentUpon>clickFaqLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickUsefullinkMinus_Map.cs">
+      <DependentUpon>clickUsefullinkMinus_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickUsefullinkMinus_Map.Designer.cs">
+      <DependentUpon>clickUsefullinkMinus_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\ClickUsefullinkplus_Map.cs">
+      <DependentUpon>ClickUsefullinkplus_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\ClickUsefullinkplus_Map.Designer.cs">
+      <DependentUpon>ClickUsefullinkplus_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickZolvLink_Map.cs">
+      <DependentUpon>clickZolvLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\clickZolvLink_Map.Designer.cs">
+      <DependentUpon>clickZolvLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\verfiyATOLlink_Map.cs">
+      <DependentUpon>verfiyATOLlink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\verfiyATOLlink_Map.Designer.cs">
+      <DependentUpon>verfiyATOLlink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\verfiyYearImg_Map.cs">
+      <DependentUpon>verfiyYearImg_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\verfiyYearImg_Map.Designer.cs">
+      <DependentUpon>verfiyYearImg_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\verifyABTALink_Map.cs">
+      <DependentUpon>verifyABTALink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\verifyABTALink_Map.Designer.cs">
+      <DependentUpon>verifyABTALink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\verifyFooterText_Map.cs">
+      <DependentUpon>verifyFooterText_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Footer\verifyFooterText_Map.Designer.cs">
+      <DependentUpon>verifyFooterText_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Generic\EnterURL_Map.cs">
+      <DependentUpon>EnterURL_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Generic\EnterURL_Map.Designer.cs">
+      <DependentUpon>EnterURL_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Generic\openBrowser_Map.cs">
+      <DependentUpon>openBrowser_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Generic\openBrowser_Map.Designer.cs">
+      <DependentUpon>openBrowser_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\clickContinueBtnFrmGDPage_Map.cs">
+      <DependentUpon>clickContinueBtnFrmGDPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\clickContinueBtnFrmGDPage_Map.Designer.cs">
+      <DependentUpon>clickContinueBtnFrmGDPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\clickIAgreeFrmTravINSPopup_Map.cs">
+      <DependentUpon>clickIAgreeFrmTravINSPopup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\clickIAgreeFrmTravINSPopup_Map.Designer.cs">
+      <DependentUpon>clickIAgreeFrmTravINSPopup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\clickNOFrmDblBkngPPup_Map.cs">
+      <DependentUpon>clickNOFrmDblBkngPPup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\clickNOFrmDblBkngPPup_Map.Designer.cs">
+      <DependentUpon>clickNOFrmDblBkngPPup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\clickScrollArrowGD_Map.cs">
+      <DependentUpon>clickScrollArrowGD_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\clickScrollArrowGD_Map.Designer.cs">
+      <DependentUpon>clickScrollArrowGD_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\clickScrollArrow_Map.cs">
+      <DependentUpon>clickScrollArrow_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\clickScrollArrow_Map.Designer.cs">
+      <DependentUpon>clickScrollArrow_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\enterPaxDetails_Map.cs">
+      <DependentUpon>enterPaxDetails_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\enterPaxDetails_Map.Designer.cs">
+      <DependentUpon>enterPaxDetails_Map.uitest</DependentUpon>
+    </Compile>
+ <Compile Include="UIMap\GroupDetailsPage\selectAirportAssistance_Map.cs">
+      <DependentUpon>selectAirportAssistance_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\selectAirportAssistance_Map.Designer.cs">
+      <DependentUpon>selectAirportAssistance_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\selectInsurance_Map.cs">
+      <DependentUpon>selectInsurance_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\selectInsurance_Map.Designer.cs">
+      <DependentUpon>selectInsurance_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\selectWheelChair_Map.cs">
+      <DependentUpon>selectWheelChair_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\selectWheelChair_Map.Designer.cs">
+      <DependentUpon>selectWheelChair_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\verifyDblBookingpopup_Map.cs">
+      <DependentUpon>verifyDblBookingpopup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\verifyDblBookingpopup_Map.Designer.cs">
+      <DependentUpon>verifyDblBookingpopup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\verifyExtrasPageDisplayed_Map.cs">
+      <DependentUpon>verifyExtrasPageDisplayed_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\verifyExtrasPageDisplayed_Map.Designer.cs">
+      <DependentUpon>verifyExtrasPageDisplayed_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\verifyTravelInsPopupDisplayed_Map.cs">
+      <DependentUpon>verifyTravelInsPopupDisplayed_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\GroupDetailsPage\verifyTravelInsPopupDisplayed_Map.Designer.cs">
+      <DependentUpon>verifyTravelInsPopupDisplayed_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Header\clickHeaderLogo_Map.cs">
+      <DependentUpon>clickHeaderLogo_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Header\clickHeaderLogo_Map.Designer.cs">
+      <DependentUpon>clickHeaderLogo_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Header\clickHeadSearchLink_Map.cs">
+      <DependentUpon>clickHeadSearchLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Header\clickHeadSearchLink_Map.Designer.cs">
+      <DependentUpon>clickHeadSearchLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Header\clickMenuLink_Map.cs">
+      <DependentUpon>clickMenuLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\Header\clickMenuLink_Map.Designer.cs">
+      <DependentUpon>clickMenuLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\clickBrowseDestination_Map.cs">
+      <DependentUpon>clickBrowseDestination_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\clickBrowseDestination_Map.Designer.cs">
+      <DependentUpon>clickBrowseDestination_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\ClickBrowserVillaButton_Map.cs">
+      <DependentUpon>ClickBrowserVillaButton_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\ClickBrowserVillaButton_Map.Designer.cs">
+      <DependentUpon>ClickBrowserVillaButton_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\clickNOFrmIncomBkgPopup_Map.cs">
+      <DependentUpon>clickNOFrmIncomBkgPopup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\clickNOFrmIncomBkgPopup_Map.Designer.cs">
+      <DependentUpon>clickNOFrmIncomBkgPopup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\ClickSearchButton_Map.cs">
+      <DependentUpon>ClickSearchButton_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\ClickSearchButton_Map.Designer.cs">
+      <DependentUpon>ClickSearchButton_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\clickwhyvp_Map.cs">
+      <DependentUpon>clickwhyvp_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\clickwhyvp_Map.Designer.cs">
+      <DependentUpon>clickwhyvp_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\VerfiyBannerImages_Map.cs">
+      <DependentUpon>VerfiyBannerImages_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\VerfiyBannerImages_Map.Designer.cs">
+      <DependentUpon>VerfiyBannerImages_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\verifyHomePageText_Map.cs">
+      <DependentUpon>verifyHomePageText_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\verifyHomePageText_Map.Designer.cs">
+      <DependentUpon>verifyHomePageText_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\verifyIncompleteBkgPopupDisplay_Map.cs">
+      <DependentUpon>verifyIncompleteBkgPopupDisplay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\HomePage\verifyIncompleteBkgPopupDisplay_Map.Designer.cs">
+      <DependentUpon>verifyIncompleteBkgPopupDisplay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickContinueBtnFrmLeadPax_Map.cs">
+      <DependentUpon>clickContinueBtnFrmLeadPax_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickContinueBtnFrmLeadPax_Map.Designer.cs">
+      <DependentUpon>clickContinueBtnFrmLeadPax_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickContinueFrmPopup_Map.cs">
+      <DependentUpon>clickContinueFrmPopup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickContinueFrmPopup_Map.Designer.cs">
+      <DependentUpon>clickContinueFrmPopup_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickIAgreeFrmTermsPage_Map.cs">
+      <DependentUpon>clickIAgreeFrmTermsPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickIAgreeFrmTermsPage_Map.Designer.cs">
+      <DependentUpon>clickIAgreeFrmTermsPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickLookupAddressBtn_Map.cs">
+      <DependentUpon>clickLookupAddressBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickLookupAddressBtn_Map.Designer.cs">
+      <DependentUpon>clickLookupAddressBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickPayByPhoneFrmTLS_Map.cs">
+      <DependentUpon>clickPayByPhoneFrmTLS_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickPayByPhoneFrmTLS_Map.Designer.cs">
+      <DependentUpon>clickPayByPhoneFrmTLS_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickPayOnlineFrmTLS_Map.cs">
+      <DependentUpon>clickPayOnlineFrmTLS_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\clickPayOnlineFrmTLS_Map.Designer.cs">
+      <DependentUpon>clickPayOnlineFrmTLS_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\enterPhoneData_Map.cs">
+      <DependentUpon>enterPhoneData_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\enterPhoneData_Map.Designer.cs">
+      <DependentUpon>enterPhoneData_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\EnterPostCode_Map.cs">
+      <DependentUpon>EnterPostCode_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\EnterPostCode_Map.Designer.cs">
+      <DependentUpon>EnterPostCode_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\verifyPaymentPageOpened_Map.cs">
+      <DependentUpon>verifyPaymentPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\verifyPaymentPageOpened_Map.Designer.cs">
+      <DependentUpon>verifyPaymentPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\verifyTermsnCondsPageOpened_Map.cs">
+      <DependentUpon>verifyTermsnCondsPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\verifyTermsnCondsPageOpened_Map.Designer.cs">
+      <DependentUpon>verifyTermsnCondsPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\verifyTLSPopupShown_Map.cs">
+      <DependentUpon>verifyTLSPopupShown_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\LeadPaxPage\verifyTLSPopupShown_Map.Designer.cs">
+      <DependentUpon>verifyTLSPopupShown_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickCancellinkFrm3D_Map.cs">
+      <DependentUpon>clickCancellinkFrm3D_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickCancellinkFrm3D_Map.Designer.cs">
+      <DependentUpon>clickCancellinkFrm3D_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickPayBtn_Map.cs">
+      <DependentUpon>clickPayBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickPayBtn_Map.Designer.cs">
+      <DependentUpon>clickPayBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickPayByPhoneBtn_Map.cs">
+      <DependentUpon>clickPayByPhoneBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickPayByPhoneBtn_Map.Designer.cs">
+      <DependentUpon>clickPayByPhoneBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickScrollPay_Map.cs">
+      <DependentUpon>clickScrollPay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickScrollPay_Map.Designer.cs">
+      <DependentUpon>clickScrollPay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickSubmitBtnFrm3D_Map.cs">
+      <DependentUpon>clickSubmitBtnFrm3D_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickSubmitBtnFrm3D_Map.Designer.cs">
+      <DependentUpon>clickSubmitBtnFrm3D_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickSubmitBtnVISAFrm3D_Map.cs">
+      <DependentUpon>clickSubmitBtnVISAFrm3D_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\clickSubmitBtnVISAFrm3D_Map.Designer.cs">
+      <DependentUpon>clickSubmitBtnVISAFrm3D_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\enter3DPwd_Map.cs">
+      <DependentUpon>enter3DPwd_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\enter3DPwd_Map.Designer.cs">
+      <DependentUpon>enter3DPwd_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\enterCardNum_Map.cs">
+      <DependentUpon>enterCardNum_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\enterCardNum_Map.Designer.cs">
+      <DependentUpon>enterCardNum_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\enterCVV_Map.cs">
+      <DependentUpon>enterCVV_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\enterCVV_Map.Designer.cs">
+      <DependentUpon>enterCVV_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\selectCardType_Map.cs">
+      <DependentUpon>selectCardType_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\selectCardType_Map.Designer.cs">
+      <DependentUpon>selectCardType_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\selectExpiryMnth_Map.cs">
+      <DependentUpon>selectExpiryMnth_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\selectExpiryMnth_Map.Designer.cs">
+      <DependentUpon>selectExpiryMnth_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\selectExpiryYr_Map.cs">
+      <DependentUpon>selectExpiryYr_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\selectExpiryYr_Map.Designer.cs">
+      <DependentUpon>selectExpiryYr_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\selectStartMnth_Map.cs">
+      <DependentUpon>selectStartMnth_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\selectStartMnth_Map.Designer.cs">
+      <DependentUpon>selectStartMnth_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\selectStartYr_Map.cs">
+      <DependentUpon>selectStartYr_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\selectStartYr_Map.Designer.cs">
+      <DependentUpon>selectStartYr_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\verifyErrShownonPayPage_Map.cs">
+      <DependentUpon>verifyErrShownonPayPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\PaymentPage\verifyErrShownonPayPage_Map.Designer.cs">
+      <DependentUpon>verifyErrShownonPayPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ThankYouPage\verifyThankUPageOpened_Map.cs">
+      <DependentUpon>verifyThankUPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\ThankYouPage\verifyThankUPageOpened_Map.Designer.cs">
+      <DependentUpon>verifyThankUPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickBackFromHeader_Map.cs">
+      <DependentUpon>clickBackFromHeader_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickBackFromHeader_Map.Designer.cs">
+      <DependentUpon>clickBackFromHeader_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickCalenderIcon_Map.cs">
+      <DependentUpon>clickCalenderIcon_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickCalenderIcon_Map.Designer.cs">
+      <DependentUpon>clickCalenderIcon_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickCentreName_Map.cs">
+      <DependentUpon>clickCentreName_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickCentreName_Map.Designer.cs">
+      <DependentUpon>clickCentreName_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickDepAirportBox_Map.cs">
+      <DependentUpon>clickDepAirportBox_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickDepAirportBox_Map.Designer.cs">
+      <DependentUpon>clickDepAirportBox_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickDestinationResortVilla_Map.cs">
+      <DependentUpon>clickDestinationResortVilla_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickDestinationResortVilla_Map.Designer.cs">
+      <DependentUpon>clickDestinationResortVilla_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickMinusfrAdults_Map.cs">
+      <DependentUpon>clickMinusfrAdults_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickMinusfrAdults_Map.Designer.cs">
+      <DependentUpon>clickMinusfrAdults_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickMinusFrChild_Map.cs">
+      <DependentUpon>clickMinusFrChild_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickMinusFrChild_Map.Designer.cs">
+      <DependentUpon>clickMinusFrChild_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickMinusFrInfants_Map.cs">
+      <DependentUpon>clickMinusFrInfants_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickMinusFrInfants_Map.Designer.cs">
+      <DependentUpon>clickMinusFrInfants_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickNextArrowFrmCalender_Map.cs">
+      <DependentUpon>clickNextArrowFrmCalender_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickNextArrowFrmCalender_Map.Designer.cs">
+      <DependentUpon>clickNextArrowFrmCalender_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickNextArrowThrice_Map.cs">
+      <DependentUpon>clickNextArrowThrice_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickNextArrowThrice_Map.Designer.cs">
+      <DependentUpon>clickNextArrowThrice_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickNextArrowTwice_Map.cs">
+      <DependentUpon>clickNextArrowTwice_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickNextArrowTwice_Map.Designer.cs">
+      <DependentUpon>clickNextArrowTwice_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickOpenSearchPage_Map.cs">
+      <DependentUpon>clickOpenSearchPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickOpenSearchPage_Map.Designer.cs">
+      <DependentUpon>clickOpenSearchPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickPlusFrDuration_Map.cs">
+      <DependentUpon>clickPlusFrDuration_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickPlusFrDuration_Map.Designer.cs">
+      <DependentUpon>clickPlusFrDuration_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickPlusIconforAdults_Map.cs">
+      <DependentUpon>clickPlusIconforAdults_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickPlusIconforAdults_Map.Designer.cs">
+      <DependentUpon>clickPlusIconforAdults_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickPlusiconforChild_Map.cs">
+      <DependentUpon>clickPlusiconforChild_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickPlusiconforChild_Map.Designer.cs">
+      <DependentUpon>clickPlusiconforChild_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickPlusIconforInfants_Map.cs">
+      <DependentUpon>clickPlusIconforInfants_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickPlusIconforInfants_Map.Designer.cs">
+      <DependentUpon>clickPlusIconforInfants_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickPrevArrowFrmCalender_Map.cs">
+      <DependentUpon>clickPrevArrowFrmCalender_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickPrevArrowFrmCalender_Map.Designer.cs">
+      <DependentUpon>clickPrevArrowFrmCalender_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickSearchButton_Map.cs">
+      <DependentUpon>clickSearchButton_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickSearchButton_Map.Designer.cs">
+      <DependentUpon>clickSearchButton_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickSearchIconFrmHeader_Map.cs">
+      <DependentUpon>clickSearchIconFrmHeader_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickSearchIconFrmHeader_Map.Designer.cs">
+      <DependentUpon>clickSearchIconFrmHeader_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\enterDestnameSearchLayer_Map.cs">
+      <DependentUpon>enterDestnameSearchLayer_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\enterDestnameSearchLayer_Map.Designer.cs">
+      <DependentUpon>enterDestnameSearchLayer_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\Search Header\clickBackSearchLayer_Map.cs">
+      <DependentUpon>clickBackSearchLayer_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\Search Header\clickBackSearchLayer_Map.Designer.cs">
+      <DependentUpon>clickBackSearchLayer_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickMinusFrDuration_Map.cs">
+      <DependentUpon>clickMinusFrDuration_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\clickMinusFrDuration_Map.Designer.cs">
+      <DependentUpon>clickMinusFrDuration_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\Search Header\clickVpLogoSearchLayer_Map.cs">
+      <DependentUpon>clickVpLogoSearchLayer_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\Search Header\clickVpLogoSearchLayer_Map.Designer.cs">
+      <DependentUpon>clickVpLogoSearchLayer_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\dragCal_Map.cs">
+      <DependentUpon>dragCal_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\dragCal_Map.Designer.cs">
+      <DependentUpon>dragCal_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\selectDateFrmCalender_Map.cs">
+      <DependentUpon>selectDateFrmCalender_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\selectDateFrmCalender_Map.Designer.cs">
+      <DependentUpon>selectDateFrmCalender_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\selectDepAirport_Map.cs">
+      <DependentUpon>selectDepAirport_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\selectDepAirport_Map.Designer.cs">
+      <DependentUpon>selectDepAirport_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\selectingDestinationFrmSearch_Map.cs">
+      <DependentUpon>selectingDestinationFrmSearch_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\selectingDestinationFrmSearch_Map.Designer.cs">
+      <DependentUpon>selectingDestinationFrmSearch_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyCalenderOpend_Map.cs">
+      <DependentUpon>verifyCalenderOpend_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyCalenderOpend_Map.Designer.cs">
+      <DependentUpon>verifyCalenderOpend_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyCenternamesPopulated_Map.cs">
+      <DependentUpon>verifyCenternamesPopulated_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyCenternamesPopulated_Map.Designer.cs">
+      <DependentUpon>verifyCenternamesPopulated_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyDestResVillaListing_Map.cs">
+      <DependentUpon>verifyDestResVillaListing_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyDestResVillaListing_Map.Designer.cs">
+      <DependentUpon>verifyDestResVillaListing_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyHoneTagDestinationResortVilla_Map.cs">
+      <DependentUpon>verifyHoneTagDestinationResortVilla_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyHoneTagDestinationResortVilla_Map.Designer.cs">
+      <DependentUpon>verifyHoneTagDestinationResortVilla_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifySRPagedisplay_Map.cs">
+      <DependentUpon>verifySRPagedisplay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifySRPagedisplay_Map.Designer.cs">
+      <DependentUpon>verifySRPagedisplay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyValErrMoreInfantsthanAdults_Map.cs">
+      <DependentUpon>verifyValErrMoreInfantsthanAdults_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyValErrMoreInfantsthanAdults_Map.Designer.cs">
+      <DependentUpon>verifyValErrMoreInfantsthanAdults_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyValErrwithSingleAdult_Map.cs">
+      <DependentUpon>verifyValErrwithSingleAdult_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchPage\verifyValErrwithSingleAdult_Map.Designer.cs">
+      <DependentUpon>verifyValErrwithSingleAdult_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickABTAFrmFooter_Map.cs">
+      <DependentUpon>clickABTAFrmFooter_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickABTAFrmFooter_Map.Designer.cs">
+      <DependentUpon>clickABTAFrmFooter_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickAllusefulLinks_Map.cs">
+      <DependentUpon>clickAllusefulLinks_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickAllusefulLinks_Map.Designer.cs">
+      <DependentUpon>clickAllusefulLinks_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickApplyFilter_Map.cs">
+      <DependentUpon>clickApplyFilter_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickApplyFilter_Map.Designer.cs">
+      <DependentUpon>clickApplyFilter_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickApplySort_Map.cs">
+      <DependentUpon>clickApplySort_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickApplySort_Map.Designer.cs">
+      <DependentUpon>clickApplySort_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickATOLFrmFooter_Map.cs">
+      <DependentUpon>clickATOLFrmFooter_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickATOLFrmFooter_Map.Designer.cs">
+      <DependentUpon>clickATOLFrmFooter_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickBackFrmFlightsPage_Map.cs">
+      <DependentUpon>clickBackFrmFlightsPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickBackFrmFlightsPage_Map.Designer.cs">
+      <DependentUpon>clickBackFrmFlightsPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickBackFrmPrdctPage_Map.cs">
+      <DependentUpon>clickBackFrmPrdctPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickBackFrmPrdctPage_Map.Designer.cs">
+      <DependentUpon>clickBackFrmPrdctPage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickBookVillaAndFlightsBtn_Map.cs">
+      <DependentUpon>clickBookVillaAndFlightsBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickBookVillaAndFlightsBtn_Map.Designer.cs">
+      <DependentUpon>clickBookVillaAndFlightsBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickBookVillaOnlyBtn_Map.cs">
+      <DependentUpon>clickBookVillaOnlyBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickBookVillaOnlyBtn_Map.Designer.cs">
+      <DependentUpon>clickBookVillaOnlyBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickChkBoxFrmFilters_Map.cs">
+      <DependentUpon>clickChkBoxFrmFilters_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickChkBoxFrmFilters_Map.Designer.cs">
+      <DependentUpon>clickChkBoxFrmFilters_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickClearFilter_Map.cs">
+      <DependentUpon>clickClearFilter_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickClearFilter_Map.Designer.cs">
+      <DependentUpon>clickClearFilter_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickExitToDesktop_Map.cs">
+      <DependentUpon>clickExitToDesktop_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickExitToDesktop_Map.Designer.cs">
+      <DependentUpon>clickExitToDesktop_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickFilterBy_Map.cs">
+      <DependentUpon>clickFilterBy_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickFilterBy_Map.Designer.cs">
+      <DependentUpon>clickFilterBy_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickFilterName_Map.cs">
+      <DependentUpon>clickFilterName_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickFilterName_Map.Designer.cs">
+      <DependentUpon>clickFilterName_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickMoreInfoBtn_Map.cs">
+      <DependentUpon>clickMoreInfoBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickMoreInfoBtn_Map.Designer.cs">
+      <DependentUpon>clickMoreInfoBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickOnVillaImage_Map.cs">
+      <DependentUpon>clickOnVillaImage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickOnVillaImage_Map.Designer.cs">
+      <DependentUpon>clickOnVillaImage_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickPlusForFilter_Map.cs">
+      <DependentUpon>clickPlusForFilter_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickPlusForFilter_Map.Designer.cs">
+      <DependentUpon>clickPlusForFilter_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickScrollFrmFilters_Map.cs">
+      <DependentUpon>clickScrollFrmFilters_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickScrollFrmFilters_Map.Designer.cs">
+      <DependentUpon>clickScrollFrmFilters_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickShowMoreResultsBtn_Map.cs">
+      <DependentUpon>clickShowMoreResultsBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickShowMoreResultsBtn_Map.Designer.cs">
+      <DependentUpon>clickShowMoreResultsBtn_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickSortBy_Map.cs">
+      <DependentUpon>clickSortBy_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickSortBy_Map.Designer.cs">
+      <DependentUpon>clickSortBy_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickUsefulLinksHeading_Map.cs">
+      <DependentUpon>clickUsefulLinksHeading_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickUsefulLinksHeading_Map.Designer.cs">
+      <DependentUpon>clickUsefulLinksHeading_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickVillaNameLink_Map.cs">
+      <DependentUpon>clickVillaNameLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickVillaNameLink_Map.Designer.cs">
+      <DependentUpon>clickVillaNameLink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickZolvlink_Map.cs">
+      <DependentUpon>clickZolvlink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\clickZolvlink_Map.Designer.cs">
+      <DependentUpon>clickZolvlink_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\getVilladetailsBlock_Map.cs">
+      <DependentUpon>getVilladetailsBlock_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\getVilladetailsBlock_Map.Designer.cs">
+      <DependentUpon>getVilladetailsBlock_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\selectSortOption_Map.cs">
+      <DependentUpon>selectSortOption_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\selectSortOption_Map.Designer.cs">
+      <DependentUpon>selectSortOption_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\verifyFlightsPageOpened_Map.cs">
+      <DependentUpon>verifyFlightsPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\verifyFlightsPageOpened_Map.Designer.cs">
+      <DependentUpon>verifyFlightsPageOpened_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\verifyProductPagedisplay_Map.cs">
+      <DependentUpon>verifyProductPagedisplay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\verifyProductPagedisplay_Map.Designer.cs">
+      <DependentUpon>verifyProductPagedisplay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\verifySearchCriteriaDisplay_Map.cs">
+      <DependentUpon>verifySearchCriteriaDisplay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\verifySearchCriteriaDisplay_Map.Designer.cs">
+      <DependentUpon>verifySearchCriteriaDisplay_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\verifySRCAirport_Map.cs">
+      <DependentUpon>verifySRCAirport_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\verifySRCAirport_Map.Designer.cs">
+      <DependentUpon>verifySRCAirport_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\verifyVillaName_Map.cs">
+      <DependentUpon>verifyVillaName_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="UIMap\SearchResultsPage\verifyVillaName_Map.Designer.cs">
+      <DependentUpon>verifyVillaName_Map.uitest</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\getFromDB.cs" />
+    <Compile Include="Utility\InitiateHomePage.cs" />
+    <Compile Include="Utility\InitiateMobileBooking.cs" />
+    <Compile Include="Utility\InitiateSearchResultsPage.cs" />
+    <Compile Include="Utility\InitiateSearchPage.cs" />
+    <Compile Include="Utility\logWriter.cs" />
+    <Compile Include="Utility\pdfCheck.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="UIMap\ExtrasPage\clickAddCarHireButton_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\clickContinueFrmExtrasPage_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\clickLaterBtn_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\clickScrollFrmExtras_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\clickRemoveButton_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\clickVillaExtrasAdded_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\clickVillaExtrasAll_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\mouseScrollAgainExtrasPage_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\mouseScrollToTransferSection_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\mouseScrollTransferSection_Need ToDelete_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\moveScrollPage_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\moveTransferSection_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\scrollMouseForCarSection_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\scrollMouseForCheckTransferSelection_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyCarConfirm_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyCarFeatures_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyCarHireCategory_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyCarHireTextMessage_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyCarsCategory_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyCarSelection_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyHelpIconVillaExtras_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyLeadPaxPageOpened_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyTransferSection_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyVillaExtrasAvailable_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyVillaExtrasMinus_Map.uitest" />
+    <None Include="UIMap\ExtrasPage\verifyYourFltPgeShown_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickChangeDepAirportBtn_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickConfirmBtn_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickContinueBtn_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickEditFlightsBtn_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickHideSummary_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickMinusForFExtras_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickPlusForFExtras_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickSelectFlightBtn_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickViewSummary_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickYesFrmHoldPopup_Map.uitest" />
+    <None Include="UIMap\FlightsPage\clickYesfromCheckInPop_Map.uitest" />
+    <None Include="UIMap\FlightsPage\IsCheckInBagspopShown_Map.uitest" />
+    <None Include="UIMap\FlightsPage\selectChngArrAirport_Map.uitest" />
+    <None Include="UIMap\FlightsPage\selectChngDepAirport_Map.uitest" />
+    <None Include="UIMap\FlightsPage\selectFlightChckBox_Map.uitest" />
+    <None Include="UIMap\FlightsPage\verifyADWTextonFlightsPage_Map.uitest" />
+    <None Include="UIMap\FlightsPage\verifyAmndFltsPageOpened_Map.uitest" />
+    <None Include="UIMap\FlightsPage\VerifyATOL_Map.uitest" />
+    <None Include="UIMap\FlightsPage\verifyDftFExtras_Map.uitest" />
+    <None Include="UIMap\FlightsPage\verifyDftFlightDetails_Map.uitest" />
+    <None Include="UIMap\FlightsPage\verifyFExtrasDetails_Map.uitest" />
+    <None Include="UIMap\FlightsPage\verifyGrpDtlsPgeOpened_Map.uitest" />
+    <None Include="UIMap\FlightsPage\verifyHoldItemsPopupdisplay_Map.uitest" />
+    <None Include="UIMap\FlightsPage\verifyTotalPriceOnFlightsPage_Map.uitest" />
+    <None Include="UIMap\FlightsPage\verifyViewSummaryOpened_Map.uitest" />
+    <None Include="UIMap\FlightsPage\verifyVillanFlightsTotal_Map.uitest" />
+    <None Include="UIMap\Footer\clickAbta_Map.uitest" />
+    <None Include="UIMap\Footer\clickAtollink_Map.uitest" />
+    <None Include="UIMap\Footer\clickContactUs_Map.uitest" />
+    <None Include="UIMap\Footer\clickDesktopLink_Map.uitest" />
+    <None Include="UIMap\Footer\clickFaqLink_Map.uitest" />
+    <None Include="UIMap\Footer\clickUsefullinkMinus_Map.uitest" />
+    <None Include="UIMap\Footer\ClickUsefullinkplus_Map.uitest" />
+    <None Include="UIMap\Footer\clickZolvLink_Map.uitest" />
+    <None Include="UIMap\Footer\verfiyATOLlink_Map.uitest" />
+    <None Include="UIMap\Footer\verfiyYearImg_Map.uitest" />
+    <None Include="UIMap\Footer\verifyABTALink_Map.uitest" />
+    <None Include="UIMap\Footer\verifyFooterText_Map.uitest" />
+    <None Include="UIMap\Generic\EnterURL_Map.uitest" />
+    <None Include="UIMap\Generic\openBrowser_Map.uitest" />
+    <None Include="UIMap\GroupDetailsPage\clickContinueBtnFrmGDPage_Map.uitest" />
+    <None Include="UIMap\GroupDetailsPage\clickIAgreeFrmTravINSPopup_Map.uitest" />
+    <None Include="UIMap\GroupDetailsPage\clickNOFrmDblBkngPPup_Map.uitest" />
+    <None Include="UIMap\GroupDetailsPage\clickScrollArrowGD_Map.uitest" />
+    <None Include="UIMap\GroupDetailsPage\clickScrollArrow_Map.uitest" />
+    <None Include="UIMap\GroupDetailsPage\enterPaxDetails_Map.uitest" />
+    <None Include="UIMap\GroupDetailsPage\verifyDblBookingpopup_Map.uitest" />
+    <None Include="UIMap\GroupDetailsPage\verifyExtrasPageDisplayed_Map.uitest" />
+    <None Include="UIMap\GroupDetailsPage\verifyTravelInsPopupDisplayed_Map.uitest" />
+    <None Include="UIMap\Header\clickHeaderLogo_Map.uitest" />
+    <None Include="UIMap\Header\clickHeadSearchLink_Map.uitest" />
+    <None Include="UIMap\Header\clickMenuLink_Map.uitest" />
+    <None Include="UIMap\HomePage\clickBrowseDestination_Map.uitest" />
+    <None Include="UIMap\HomePage\ClickBrowserVillaButton_Map.uitest" />
+    <None Include="UIMap\HomePage\clickNOFrmIncomBkgPopup_Map.uitest" />
+    <None Include="UIMap\HomePage\ClickSearchButton_Map.uitest" />
+    <None Include="UIMap\HomePage\clickwhyvp_Map.uitest" />
+    <None Include="UIMap\HomePage\VerfiyBannerImages_Map.uitest" />
+    <None Include="UIMap\HomePage\verifyHomePageText_Map.uitest" />
+    <None Include="UIMap\HomePage\verifyIncompleteBkgPopupDisplay_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\clickContinueBtnFrmLeadPax_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\clickContinueFrmPopup_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\clickIAgreeFrmTermsPage_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\clickLookupAddressBtn_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\clickPayByPhoneFrmTLS_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\clickPayOnlineFrmTLS_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\enterPhoneData_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\EnterPostCode_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\verifyPaymentPageOpened_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\verifyTermsnCondsPageOpened_Map.uitest" />
+    <None Include="UIMap\LeadPaxPage\verifyTLSPopupShown_Map.uitest" />
+    <None Include="UIMap\PaymentPage\clickCancellinkFrm3D_Map.uitest" />
+    <None Include="UIMap\PaymentPage\clickPayBtn_Map.uitest" />
+    <None Include="UIMap\PaymentPage\clickPayByPhoneBtn_Map.uitest" />
+    <None Include="UIMap\PaymentPage\clickScrollPay_Map.uitest" />
+    <None Include="UIMap\PaymentPage\clickSubmitBtnFrm3D_Map.uitest" />
+    <None Include="UIMap\PaymentPage\clickSubmitBtnVISAFrm3D_Map.uitest" />
+    <None Include="UIMap\PaymentPage\enter3DPwd_Map.uitest" />
+    <None Include="UIMap\PaymentPage\enterCardNum_Map.uitest" />
+    <None Include="UIMap\PaymentPage\enterCVV_Map.uitest" />
+    <None Include="UIMap\PaymentPage\selectCardType_Map.uitest" />
+    <None Include="UIMap\PaymentPage\selectExpiryMnth_Map.uitest" />
+    <None Include="UIMap\PaymentPage\selectExpiryYr_Map.uitest" />
+    <None Include="UIMap\PaymentPage\selectStartMnth_Map.uitest" />
+    <None Include="UIMap\PaymentPage\selectStartYr_Map.uitest" />
+    <None Include="UIMap\PaymentPage\verifyErrShownonPayPage_Map.uitest" />
+    <None Include="UIMap\ThankYouPage\verifyThankUPageOpened_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickBackFromHeader_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickCalenderIcon_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickCentreName_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickDepAirportBox_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickDestinationResortVilla_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickMinusfrAdults_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickMinusFrChild_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickMinusFrInfants_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickNextArrowFrmCalender_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickNextArrowThrice_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickNextArrowTwice_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickOpenSearchPage_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickPlusFrDuration_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickPlusIconforAdults_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickPlusiconforChild_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickPlusIconforInfants_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickPrevArrowFrmCalender_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickSearchButton_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickSearchIconFrmHeader_Map.uitest" />
+    <None Include="UIMap\SearchPage\enterDestnameSearchLayer_Map.uitest" />
+    <None Include="UIMap\SearchPage\Search Header\clickBackSearchLayer_Map.uitest" />
+    <None Include="UIMap\SearchPage\clickMinusFrDuration_Map.uitest" />
+    <None Include="UIMap\SearchPage\Search Header\clickVpLogoSearchLayer_Map.uitest" />
+    <None Include="UIMap\SearchPage\dragCal_Map.uitest" />
+    <None Include="UIMap\SearchPage\selectDateFrmCalender_Map.uitest" />
+    <None Include="UIMap\SearchPage\selectDepAirport_Map.uitest" />
+    <None Include="UIMap\SearchPage\selectingDestinationFrmSearch_Map.uitest" />
+    <None Include="UIMap\SearchPage\verifyCalenderOpend_Map.uitest" />
+    <None Include="UIMap\SearchPage\verifyCenternamesPopulated_Map.uitest" />
+    <None Include="UIMap\SearchPage\verifyDestResVillaListing_Map.uitest" />
+    <None Include="UIMap\SearchPage\verifyHoneTagDestinationResortVilla_Map.uitest" />
+    <None Include="UIMap\SearchPage\verifySRPagedisplay_Map.uitest" />
+    <None Include="UIMap\SearchPage\verifyValErrMoreInfantsthanAdults_Map.uitest" />
+    <None Include="UIMap\SearchPage\verifyValErrwithSingleAdult_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickABTAFrmFooter_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickAllusefulLinks_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickApplyFilter_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickApplySort_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickATOLFrmFooter_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickBackFrmFlightsPage_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickBackFrmPrdctPage_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickBookVillaAndFlightsBtn_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickBookVillaOnlyBtn_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickChkBoxFrmFilters_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickClearFilter_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickExitToDesktop_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickFilterBy_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickFilterName_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickMoreInfoBtn_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickOnVillaImage_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickPlusForFilter_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickScrollFrmFilters_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickShowMoreResultsBtn_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickSortBy_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickUsefulLinksHeading_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickVillaNameLink_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\clickZolvlink_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\getVilladetailsBlock_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\selectSortOption_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\verifyFlightsPageOpened_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\verifyProductPagedisplay_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\verifySearchCriteriaDisplay_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\verifySRCAirport_Map.uitest" />
+    <None Include="UIMap\SearchResultsPage\verifyVillaName_Map.uitest" />
+  </ItemGroup>
+  <ItemGroup />
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' Or '$(VisualStudioVersion)' == '11.0') And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="UIAutomationTypes" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

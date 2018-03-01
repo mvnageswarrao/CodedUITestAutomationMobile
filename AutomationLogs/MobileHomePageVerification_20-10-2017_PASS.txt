@@ -1,0 +1,6 @@
+########## START ########## Home Page : 20-10-2017 16:23:50##########
+PASS : Home Page is Opened. : VERIFICATION
+Header Menu Click : Pass
+Header Search link : Pass
+PASS : Clicked "VP LOGO" from Header from "Search" Page
+INFO : Clicked Back From Browser And Restored Home Page Page.

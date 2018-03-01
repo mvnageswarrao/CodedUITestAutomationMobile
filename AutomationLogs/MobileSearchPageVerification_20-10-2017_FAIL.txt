@@ -1,0 +1,7 @@
+########## START ########## Search Page : 20-10-2017 16:25:21##########
+FAIL : Clould not Click "VP LOGO" from Header from Search PageMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: StringAssert.Contains failed. String 'https://m.villaplus.com/destinations' does not contain string '.villaplus.com/home'. .
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFailure(String assertionName, String message)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(String value, String substring, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains(String value, String substring)
+   at MobileTestAutomation.UIMap.Header.clickHeaderLogo_MapClasses.clickHeaderLogo_Map.clickHeaderLogo_Method(String strURL) in c:\Veera-Backup\FromDDrive\Mobile Automation\MobileTestAutomation\UIMap\Header\clickHeaderLogo_Map.cs:line 53
+FAIL : Destination List is not populated properly.

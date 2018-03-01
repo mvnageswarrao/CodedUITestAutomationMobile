@@ -1,0 +1,11 @@
+########## START ########## Booking : on http://m.villaplus.com/ 15-11-2017 7.12.48 PM##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Destination List is populated properly.
+PASS : Selected "Lanzarote" as a Center from Destination list.
+INFO : Browser was Closed as the Previous Month Control On Calender is Not Avaialble.
+########## START ########## Booking : on http://m.villaplus.com/ 15-11-2017 7.15.39 PM##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Destination List is populated properly.
+PASS : Selected "Corfu" as a Center from Destination list.

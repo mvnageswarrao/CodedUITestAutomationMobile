@@ -1,0 +1,29 @@
+########## START ########## Search Results Page : 20-10-2017 16:31:42##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : "Villa Plus LOGO" is shown on Home Page
+PASS : Clicked "VP LOGO" from Header from "Search" Page
+INFO : Clicked Back From Browser And Restored Home Page Page.
+PASS : "Header" is displayed on Home Page
+PASS : "Back Icon" Clicked From Home Page
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Selected "Zante" as a Center from Destination list.
+PASS : Selected "7 October 2018"  as a Departure Date from Calender.
+PASS : + icon has been disabled.
+PASS : - icon has been disabled.
+PASS : Selected 21 nights.
+PASS : "1" Adults Selected.
+PASS : "1" Child Selected.
+PASS : "0" Infants Selected.
+PASS : Selected "" from Airport list.
+PASS : Selected "All North West" from Airport list.
+PASS : Clicked 'Search' Button.
+PASS : "Search Results" page is Opened.
+PASS : Shown villas in "Search Results" page. : VERIFICATION
+PASS : "Villa Plus LOGO" is shown on Search Results Page
+PASS : Clicked "VP LOGO" from Header from "Search" Page
+INFO : Clicked Back From Browser And Restored Search Results Page Page.
+PASS : "Villa Plus LOGO" is shown on Search Results Page
+PASS : "Header" is displayed on Search Results Page
+PASS : "Back Icon" Clicked From Search Results Page
+INFO : Restored  Page.
+PASS : "Menu Icon" Clicked From Search Results Page

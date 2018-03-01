@@ -1,0 +1,25 @@
+########## START ########## Search Page : 20-10-2017 16:25:21##########
+PASS : Home Page is Opened. : VERIFICATION
+INFO : Clicked Back From Browser And Restored Search Page Page.
+PASS : Clicked "Back" button from Header from "Search" Page
+PASS : "Search" Page is Opened using Search Icon. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Selected "Crete" as a Center from Destination list.
+PASS : Selected "15 June 2018"  as a Departure Date from Calender.
+PASS : + icon has been disabled.
+PASS : - icon has been disabled.
+PASS : Selected 7 nights.
+PASS : + icon for Adults has been disabled.
+PASS : + icon for Child has been disabled.
+PASS : + icon for Infants has been disabled.
+PASS : - icon for Aults has been disabled.
+PASS : - icon for Children has been disabled.
+PASS : - icon for Infants has been disabled.
+PASS : "1" Adults Selected.
+PASS : "0" Child Selected.
+PASS : "0" Infants Selected.
+PASS : Clicked 'Search' Button.
+PASS : Minimum Occuapcy Error displayed Properly.
+PASS : "3" Infants Selected.
+PASS : Clicked 'Search' Button.
+PASS : More Infants than Adults selected Error displayed Properly.

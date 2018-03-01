@@ -1,0 +1,67 @@
+F:\QA\MobileTestAutomation\MobileTestAutomation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll.config
+F:\QA\MobileTestAutomation\MobileTestAutomation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll
+F:\QA\MobileTestAutomation\MobileTestAutomation\MobileTestAutomation\bin\Debug\MobileTestAutomation.pdb
+F:\QA\MobileTestAutomation\MobileTestAutomation\MobileTestAutomation\obj\Debug\MobileTestAutomation.dll
+F:\QA\MobileTestAutomation\MobileTestAutomation\MobileTestAutomation\obj\Debug\MobileTestAutomation.pdb
+C:\MobileTestAutomation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll.config
+C:\MobileTestAutomation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll
+C:\MobileTestAutomation\MobileTestAutomation\bin\Debug\MobileTestAutomation.pdb
+C:\MobileTestAutomation\MobileTestAutomation\obj\Debug\MobileTestAutomation.csprojResolveAssemblyReference.cache
+C:\MobileTestAutomation\MobileTestAutomation\obj\Debug\MobileTestAutomation.dll
+C:\MobileTestAutomation\MobileTestAutomation\obj\Debug\MobileTestAutomation.pdb
+E:\Data 1\Projects\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll.config
+E:\Data 1\Projects\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll
+E:\Data 1\Projects\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.pdb
+E:\Data 1\Projects\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.csprojResolveAssemblyReference.cache
+E:\Data 1\Projects\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.dll
+E:\Data 1\Projects\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.pdb
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll.config
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.pdb
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.QualityTools.WindowsStore.CodedUITestFramework.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TestTools.UITest.Common.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TestTools.UITest.Extension.CrossBrowser.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TestTools.UITest.Extension.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TestTools.UITest.ExtensionUtilities.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TestTools.UITesting.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.QualityTools.Common.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TestTools.WindowsStore.UITest.Common.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TestTools.WindowsStore.UITesting.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TestTools.WindowsStore.UITest.Extension.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\UiaComWrapper.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\UiaComWrapper.WindowsStore.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Interop.UIAutomationClient.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.MSXML.dll
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.QualityTools.WindowsStore.CodedUITestFramework.xml
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.QualityTools.Common.xml
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TestTools.WindowsStore.UITest.Common.xml
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.xml
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TestTools.WindowsStore.UITest.Extension.xml
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.xml
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+D:\Mobile Automation\MobileTestAutomation\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+D:\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.dll
+D:\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.pdb
+D:\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.csprojResolveAssemblyReference.cache
+E:\FromDDrive\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll.config
+E:\FromDDrive\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll
+E:\FromDDrive\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.pdb
+E:\FromDDrive\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.csprojResolveAssemblyReference.cache
+E:\FromDDrive\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.dll
+E:\FromDDrive\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.pdb
+C:\Veera-Backup\FromDDrive\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll.config
+C:\Veera-Backup\FromDDrive\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.dll
+C:\Veera-Backup\FromDDrive\Mobile Automation\MobileTestAutomation\bin\Debug\MobileTestAutomation.pdb
+C:\Veera-Backup\FromDDrive\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.csprojResolveAssemblyReference.cache
+C:\Veera-Backup\FromDDrive\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.dll
+C:\Veera-Backup\FromDDrive\Mobile Automation\MobileTestAutomation\obj\Debug\MobileTestAutomation.pdb

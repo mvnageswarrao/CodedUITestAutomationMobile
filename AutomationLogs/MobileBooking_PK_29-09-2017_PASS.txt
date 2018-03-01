@@ -1,0 +1,202 @@
+########## START ########## Booking : on http://m.villaplus.com/ 29-09-2017 01:35:25##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Destination List is populated properly.
+PASS : Selected "Costa Blanca" as a Center from Destination list.
+PASS : Selected "13 October 2018"  as a Departure Date from Calender.
+PASS : Selected 14 nights.
+PASS : "1" Adults Selected.
+PASS : "1" Child Selected.
+PASS : "0" Infants Selected.
+PASS : Selected "Aberdeen" from Airport list.
+PASS : Selected Search Criteria (Costa Blanca, 10-13-2018, 14 nights, 1 Adults, 1 Child, 0 Infants, Aberdeen ) Successfully. : VERIFICATION
+PASS : Clicked 'Search' Button.
+########## START ########## Booking : on http://m.villaplus.com/ 29-09-2017 01:39:44##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Destination List is populated properly.
+PASS : Selected "Crete" as a Center from Destination list.
+PASS : Selected "29 June 2018"  as a Departure Date from Calender.
+PASS : Selected 14 nights.
+PASS : "1" Adults Selected.
+PASS : "1" Child Selected.
+PASS : "0" Infants Selected.
+PASS : Selected "London Gatwick" from Airport list.
+PASS : Selected Search Criteria (Crete, 06-29-2018, 14 nights, 1 Adults, 1 Child, 0 Infants, London Gatwick ) Successfully. : VERIFICATION
+PASS : Clicked 'Search' Button.
+PASS : "Search Results" page is Opened.
+PASS : Shown villas in "Search Results" page. : VERIFICATION
+PASS : "Villa Count" for the selected Search Criteria is Matched. : VERIFICATION
+PASS : Clicked "Book Villa & Flights" Button from "Search Results" Page. : VERIFICATION
+PASS : "Flights" Page For "Package Booking" is opened Successfully. : VERIFICATION
+---------- START ---------- Booking ID : 16862399 : 29-09-2017 01:43:15----------
+PASS : "ATOL Contribution" Text is avaialable on Flights Page. : VERIFICATION
+PASS : "View Summary" is Clicked from Flights Page.
+PASS : "View Summary" Layer is Opened.
+PASS : "Flight Details" Shown in "View Summary" are Matched with the details shown in "Flights" Page.
+PASS : "ATOL" Text Shown in "View Summary" are Matched with the details shown in "Flights" Page.
+PASS : "Hide Summary" is Clicked.
+PASS : "Flights Extras" are avaialable for the selected flight.
+PASS : All the Flight Extras Listed in DB are displayed on Page.
+INFO : Could Not Select Flight Extras.
+PASS : "ADW" Text is avaialable on Flights Page. : VERIFICATION
+PASS : "Flights Extras" are avaialable for the selected flight.
+PASS : All the Flight Extras Listed in DB are displayed on Page.
+INFO : Could Not Select Flight Extras.
+PASS : "Flights Extras" are avaialable for the selected flight.
+PASS : "View Summary" is Clicked from Flights Page.
+PASS : "View Summary" Layer is Opened.
+PASS : "Flight Details" Shown in "View Summary" are Matched with the details shown in "Flights" Page.
+PASS : "ATOL" Text Shown in "View Summary" are Matched with the details shown in "Flights" Page.
+PASS : "Hide Summary" is Clicked.
+PASS : Clicked  "Continue" Button from Flights Page. : VERIFICATION
+INFO : "Hold Items" Popup is NOT displayed.
+--------StringAssert.Contains failed. String 'Check-in Bags' does not contain string 'Hold Items'. .
+INFO : "Check-In Bags" Popup displayed.
+PASS : Clicked "Yes" Button from Check-In Popup.
+PASS : "Group Details" Page is Opened. : VERIFICATION
+PASS : "View Summary" is Clicked from Flights Page.
+PASS : "View Summary" Layer is Opened.
+INFO : "Flight Extras Details" Shown in "View Summary" are Not Matched with the details Selected in "Flights" Page.
+PASS : "Hide Summary" is Clicked.
+PASS : Insurance Selected for all passengers.
+PASS : Airport Assistance is Selected.
+INFO : Could not Select WheelChair.
+PASS : Clicked " Continue" Button from Group Details Page. : VERIFICATION
+INFO : Could Not Open "Another Booking Found" Popup.
+PASS : "Reduced mobility or wheelchair assistance" Popup is Opened.
+PASS : Clicked "Yes" Button from "Reduced mobility or wheelchair assistance" Popup.
+PASS : "Travel Insurance" Popup Dispalyed on GD Page.
+PASS : Clicked "I Agree" Button from Travel Insurance Popup.
+PASS : Extra Page is Opened. : VERIFICATION
+PASS : Villa Extra is present on Webpage -   Starter Pack 
+PASS : Villa Extra is present on Webpage -   Cots 
+PASS : Villa Extra is present on Webpage -   High Chair 
+PASS : Villa Extra is present in the DB -  Starter Pack
+PASS : Villa Extra is present in the DB -  Cots
+PASS : Villa Extra is present in the DB -  Z-Bed
+PASS : Villa Extra is present in the DB -  High Chair
+PASS :  Starter Pack  is selected Villa Extra
+PASS : Total Number of Villa Extras Clicked -  1 and Total Villa Extras Quantity -  1is matched
+PASS :  Cots  is selected Villa Extra
+PASS : Total Number of Villa Extras Clicked -  1 and Total Villa Extras Quantity -  1is matched
+PASS :  High Chair  is selected Villa Extra
+PASS : Total Number of Villa Extras Clicked -  1 and Total Villa Extras Quantity -  1is matched
+PASS :  0 x Starter Pack  £0.00 is selected Villa Extra
+PASS : Total Number of villa extras are removed - 1 and Total Villa Extras Quantity available on the page -  0 is matched
+PASS :  0 x Cots  Free is selected Villa Extra
+PASS : Total Number of villa extras are removed - 1 and Total Villa Extras Quantity available on the page -  0 is matched
+PASS :  0 x High Chair  Free is selected Villa Extra
+PASS : Total Number of villa extras are removed - 1 and Total Villa Extras Quantity available on the page -  0 is matched
+PASS : Villa Extras Heading is Matched - Starter Pack
+PASS : Text displayed on the webpage is matchedOur Starter pack is designed to provide basic necessities and sufficient food for a light snack. Included are items such as milk, bread, tea and coffee, juice, pasta, tomato pasta sauce, mineral water and a bottle of wine. Matches and washing up liquid are also included. In all villas a small supply of toilet rolls is automatically supplied, these items can vary from destination to destination, and are subject to availability. The Starter packs are sufficient for 1-5.
+PASS : Villa Extras Heading is Matched - Cots
+PASS : Text displayed on the webpage is matchedTravel cots and linen provided. Linen is supplied. Should any person in your party have allergies to washing substances, please bring your own.
+PASS : Villa Extras Heading is Matched - High Chair
+PASS : Text displayed on the webpage is matched
+PASS : Car Hire Text is Matched with Set text in the Config File.
+PASS : Clicked on the Add Car Hire Button. : VERIFICATION
+PASS : Clicked on the Removed Car Hire  Button.
+PASS : Clicked on the Confirm Car Hire Button. : VERIFICATION
+PASS : Add Amend Car Hire Section - Car Features Displayed on Page and DB is Matched - 1A
+PASS : Add Amend Car Hire Section - Car Features Displayed on Page and DB is Matched - Peugeot 107 or Similar
+PASS : Add Amend Car Hire Section - Car Features Displayed on Page and DB is Matched - 3 doors
+PASS : Add Amend Car Hire Section - Car Features Displayed on Page and DB is Matched - 4 Seats
+PASS : Add Amend Car Hire Section - Car Features Displayed on Page and DB is Matched - Air conditioning
+PASS : Add Amend Car Hire Section - Car Features Displayed on Page and DB is Matched - Radio CD
+PASS : Add Amend Car Hire Section - Car Features Displayed on Page and DB is Matched - Electric Windows
+PASS : Add Amend Car Hire Section - Car Features Displayed on Page and DB is Matched - Central locking
+PASS : Add Amend Car Hire Section - Car Features Displayed on Page and DB is Matched - Petrol or diesel
+PASS : Clicked on the Next Car button
+PASS : Clicked on the Previous Car button
+PASS : Add Car Hire Section - Child Seat is selected
+PASS : Add Car Hire Section - Collect From is selected
+PASS : Add Car Hire Section - Return To is selected
+PASS : Add Car Hire Section - Driver To is selected.
+PASS : Clicked on the "Confirm Car Hire" Button.
+PASS : Clicked on the "I Agree" Button.
+PASS : Selected Car Category displayed on the Extra Page - 1A.
+PASS : Selected Private Transfer Data is matched with DB : 1 - 4 People £117.00 
+PASS : Click on the "Add Private Transfer" Button. : VERIFICATION
+PASS : Click on the "Remove Private Transfer" Button.
+PASS : Clicked "Confirm Private Transfer" Button.
+PASS : Changed Airport To Villa Selection Successfully - 1 - 4 pax £117.00
+PASS : Added New Transfer Selection from Airport To Villa.
+PASS : Removed Newly added Transfer Selection from Airport To Villa.
+PASS : Changed Villa To Airport Selection Successfully - 1 - 4 pax £117.00
+PASS : Added New Transfer Selection from Villa To Airport 
+PASS : Removed Newly added Transfer Selection from Villa To Airport 
+PASS : Click on the Confirm Private Transfer Button. : VERIFICATION
+PASS : Selected Extra Transfer data is matched with Transfer Data on the Page - Villa & Flight 1
+
+Airport to Villa - 1 to 4 pax £117.00
+Villa to Airport - 1 to 4 pax £117.00.
+PASS : Extra Page is Opened. : VERIFICATION
+PASS : "View Summary" is Clicked from Flights Page.
+PASS : "View Summary" Layer is Opened.
+PASS : "Hide Summary" is Clicked.
+PASS : Clicked Continue Button from Extras Page. : VERIFICATION
+PASS : "Lead Pax" Page is Opened Successfully. : VERIFICATION
+PASS : "View Summary" is Clicked from Flights Page.
+PASS : "View Summary" Layer is Opened.
+PASS : "Villa Extras Details" Shown in "View Summary" are Matched with the details Selected in "Extras" Page.
+PASS : "Car Hire Details" Shown in "View Summary" are Matched with the details Selected in "Extras" Page.
+PASS : "Transfer Details" Shown in "View Summary" are Matched with the details Selected in "Extras" Page.
+PASS : "ADW Details" Shown in "View Summary" are Matched with the details Selected in "Extras" Page.
+PASS : "Hide Summary" is Clicked.
+PASS : Entered "Post Code".
+PASS : Entered "Post Code".
+PASS : Entered "Post Code".
+PASS : Entered "Post Code".
+PASS : Entered "Post Code".
+PASS : Entered "Post Code".
+PASS : Entered "Post Code".
+PASS : Clicked "Look Up Address" Button.
+INFO : Could NOT FInd "Post Code" Error Popup.
+--------Object reference not set to an instance of an object.
+PASS : Entered "Phone & Mobile" Numbers.
+PASS : Clicked "Continue" Button from Lead Pax Page. : VERIFICATION
+PASS : "Terms & Conditions" Page is Opened.
+PASS : Clicked "I Agree" Button For Booking Conditions.  : VERIFICATION
+INFO : "TLS Popup" is Not Opened.
+PASS : "Payment" Page is Opened. : VERIFICATION
+PASS : "View Summary" is Clicked from Flights Page.
+PASS : "View Summary" Layer is Opened.
+PASS : "Lead Pax Details" Shown in "View Summary" are Matched with the details entered in "Lead Pax" Page.
+PASS : "Other Pax Details" Shown in "View Summary" are Matched with the details enetred in "Lead Pax" Page.
+PASS : "Hide Summary" is Clicked.
+PASS : "Visa" is Selected as Card Type. : VERIFICATION
+PASS : "4761000000000001" is entered as Card Number.
+PASS : "2020" is selected as an Exipry Year.
+PASS : "5" is selected as an Exipry Month.
+PASS : Entered Security Code(CVV).
+PASS : Clicked "Pay" Button. : VERIFICATION
+PASS : Error Message is shown on Payment Page. - INFO ONLY : VERIFICATION
+PASS : Clicked "Pay By Phone" Button from Payment Page. : VERIFICATION
+PASS : "Thank You" Page is Opened. : VERIFICATION
+PASS : "Flight Details" Shown in "Thank You" Page are Matched. : VERIFICATION
+PASS : "ATOL" Text Shown in "Thank You" Page are Matched. : VERIFICATION
+INFO : "Flight Extras Details" Shown in "Thank You" Page are Not Matched.
+PASS : "Villa Extras Details" Shown in "Thank You" Page are Matched. : VERIFICATION
+PASS : "Car Hire Details" Shown in "Thank You" Page are Matched. : VERIFICATION
+PASS : "Transfer Details" Shown in "Thank You" Page are Matched. : VERIFICATION
+PASS : "ADW Details" Shown in "Thank You" Page are Matched. : VERIFICATION
+PASS : "Lead Pax Details" Shown in "Thank You" Page are Matched. : VERIFICATION
+PASS : "Other Pax Details" Shown in "Thank You" Page are Matched. : VERIFICATION
+INFO : Pay Online Was not Avaialable Booking Done using Phone button, so VPBookingStage is as Expected = Costing
+PASS : WSStatus is as Expected = Optioned  
+PASS : BKStatus is as Expected = OK        
+INFO : Pay Online Was not Avaialable Booking Done using Phone button, so BKBookingStage is as Expected = Costing
+INFO : Pay Online Was not Avaialable Booking Done using Phone button, so ApplCCRate is as Expected = 0.02
+PASS : LineType is as Expected = Villa-PK  
+PASS : AlertMessage is as Expected = 
+INFO : Pay Online Was not Avaialable Booking Done using Phone button, so WheelChairAsst is as Expected = True
+PASS : BookingTerms is as Expected = True
+PASS : WsSender is as Expected = WebSite
+PASS : VPStatus is as Expected = OK        
+INFO : Pay Online Was not Avaialable Booking Done using Phone button, so ATOLStatus is as Expected = NA
+PASS : MailStatus is as Expected = PDF Mail
+########## END ########## Booking ID : 16862399 : 29-09-2017 02:19:58##########
+
+
+

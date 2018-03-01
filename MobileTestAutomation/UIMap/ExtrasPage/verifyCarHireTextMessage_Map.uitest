@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.10.9200.17088" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" Value="no" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="yes" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="0" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 8 Enterprise" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.2.9200.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1280" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1024" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="0" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <StringAssertAction UIObjectName="verifyCarHireTextMessage_Map.UIHolidayExtrasVillaPlWindow.UIHolidayExtrasVillaPlDocument.UISectioncarhireCustom">
+      <ParameterName />
+      <PropertyName>InnerText</PropertyName>
+      <ExpectedValue>Car Hire   
+ 
+We have classified Villa Tinao as CAR ESSENTIAL which means you will need a car to reach local amenities (restaurants, bars, shops, beach) as they are not within reasonable walking distance.
+
+Cars are ideal for getting around the local area in your own time. You’ll need a car at this villa to get to the local bars, restaurants, shops and the beach but it’s also great to explore the rest of your destination and make the most out of your stay!
+
+The costs of taxis and transfers can also add up and could end up exceeding  what you would pay for hiring a car.
+
+ 
+VW Passat or similar (IDMR)5 doors
+5 seats
+Air conditioning
+Radio CD
+Electric windows
+Central locking
+Petrol or diesel
+ 5
+
+2
+
+1
+
+Manual
+Air Con
+
+The picture and information of the car is for guidance only.   
+
+£299.00 
+
+Seat Leon or similar (CCMR)5 doors
+5 seats
+Air conditioning
+Radio CD
+Electric windows
+Central locking
+Petrol or diesel
+ 5
+
+2
+
+1
+
+Manual
+Air Con
+
+The picture and information of the car is for guidance only.   
+
+£259.00 
+
+VW Touran or similar (ICMR)5 doors
+5 seats
+Air conditioning
+Radio CD
+Electric windows
+Central locking
+Petrol or diesel
+ 5
+
+2
+
+1
+
+Manual
+Air Con
+
+The picture and information of the car is for guidance only.   
+
+£289.00 
+
+VW Golf or similar (CDAR)5 doors
+5 seats
+Automatic
+Air conditioning
+Radio CD
+Electric windows
+Central locking
+Petrol or diesel
+ 5
+
+2
+
+1
+
+Automatic
+Air Con
+
+The picture and information of the car is for guidance only.   
+
+£335.00 
+
+Mercedes Viano 7 seats or similar (FVMR)5 doors
+7 seats
+Air conditioning
+Radio CD
+Electric windows
+Central locking
+Petrol or diesel
+ 7
+
+2
+
+2
+
+Manual
+Air Con
+
+The picture and information of the car is for guidance only.   
+
+£599.00 
+
+
+Car Category 1A
+Opel Adam or similar (MBMR)3 doors
+4 seats
+Air conditioning
+Radio CD
+Electric windows
+Central locking
+Petrol or diesel
+ 4
+
+1
+
+0
+
+Manual
+Air Con
+
+The picture and information of the car is for guidance only.   
+
+£239.00 
+
+
+Car Category 1B
+Seat Ibiza or similar (EDMR)3 doors
+5 seats
+Air conditioned
+Radio CD
+Electric Windows
+Central locking
+Petrol or diesel
+ 4
+
+2
+
+0
+
+Manual
+Air Con
+
+The picture and information of the car is for guidance only.   
+
+£249.00 
+
+
+Car Category 1G
+Mercedes Vito 9 seats or similar (PVMR)4 doors
+9 seats
+Air conditioning
+Radio CD
+Electric windows
+Central locking
+Petrol or diesel
+ 9
+
+3
+
+0
+
+Manual
+Air Con
+
+The picture and information of the car is for guidance only.   
+
+£619.00 
+ 
+Add Car Hire</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Comparison>CurrentCulture</Comparison>
+      <PropertyCondition>Contains</PropertyCondition>
+    </StringAssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="verifyCarHireTextMessage_Method">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="verifyCarHireTextMessage_Map">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIHolidayExtrasVillaPlWindow" FriendlyName="Holiday Extras | Villa Plus - Windows Internet Exp..." SpecialControlType="BrowserWindow" SessionId="133242">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Holiday Extras | Villa Plus</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Holiday Extras | Villa Plus</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>1</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UIHolidayExtrasVillaPlDocument" FriendlyName="Holiday Extras | Villa Plus" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Holiday Extras | Villa Plus</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id">book</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title">Holiday Extras | Villa Plus</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath" Operator="Contains">/booking/Extras/ShowExtras</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UISectioncarhireCustom" FriendlyName="section-carhire" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Holiday Extras | Villa Plus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Custom</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">section-carhire</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Class">booking-step</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">class="booking-step" id="section-carhire</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

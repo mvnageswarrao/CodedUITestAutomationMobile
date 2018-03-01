@@ -1,0 +1,10 @@
+########## START ########## Search Results Page : 20-10-2017 16:31:42##########
+FAIL : Could Not Click "Back Icon" From Home Page Cannot perform 'Forward' on the control. Additional Details: 
+TechnologyName:  'MSAA'
+Name:  'Villa Holidays 2017 That You'll Love More | Villa Plus - Internet Explorer'
+ClassName:  'IEFrame'
+ControlType:  'Window'
+
+FAIL : Destination List is not populated properly.
+FAIL : Could Not Click "Menu Icon" From Search Results Page Assert.AreEqual failed. Expected:</home/index>. Actual:</menu>. 
+FAIL : "Villa Count" for the selected Search Criteria is NOT Matched.

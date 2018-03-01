@@ -1,0 +1,8 @@
+########## START ########## Booking : on http://m.villaplus.com/ 20-10-2017 16:08:13##########
+FAIL : Destination List is not populated properly.
+---------- START ---------- Booking ID : 16905782 : 20-10-2017 16:11:10----------
+--------Object reference not set to an instance of an object.
+########## END ########## Booking ID : 16905782 : 20-10-2017 16:23:25##########
+
+
+

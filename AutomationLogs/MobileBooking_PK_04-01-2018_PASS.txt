@@ -1,0 +1,9 @@
+########## START ########## Booking : on http://m.villaplus.com/ 04-01-2018 12.50.22 PM##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Destination List is populated properly.
+########## START ########## Booking : on http://m.villaplus.com/ 04-01-2018 6.43.11 PM##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Destination List is populated properly.
+PASS : Selected "Corfu" as a Center from Destination list.

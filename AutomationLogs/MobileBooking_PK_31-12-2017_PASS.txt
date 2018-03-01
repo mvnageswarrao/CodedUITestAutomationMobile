@@ -1,0 +1,20 @@
+########## START ########## Booking : on http://m.villaplus.com/ 31-12-2017 6.23.36 PM##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Destination List is populated properly.
+PASS : Selected "Menorca (Minorca)" as a Center from Destination list.
+PASS : Selected "15 October 2018"  as a Departure Date from Calender.
+PASS : Selected 21 nights.
+PASS : "1" Adults Selected.
+PASS : "1" Child Selected.
+PASS : "0" Infants Selected.
+PASS : Selected "Birmingham Intl" from Airport list.
+PASS : Selected Search Criteria (Menorca, 10-15-2018, 21 nights, 1 Adults, 1 Child, 0 Infants, Birmingham Intl ) Successfully. : VERIFICATION
+PASS : Clicked 'Search' Button.
+PASS : "Search Results" page is Opened.
+INFO : ZERO Villa are shown in "Search Results" page For the selected Search Criteria. : VERIFICATION
+PASS : "Search" Page is Opened using Search Icon. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Destination List is populated properly.
+PASS : Selected "Zante" as a Center from Destination list.
+INFO : Browser was Closed as the Previous Month Control On Calender is Not Avaialble.

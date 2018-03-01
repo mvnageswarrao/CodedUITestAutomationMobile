@@ -1,0 +1,13 @@
+########## START ########## Booking : on http://m.villaplus.com/ 20-10-2017 15:44:22##########
+########## START ########## Booking : on http://m.villaplus.com/ 20-10-2017 15:45:02##########
+FAIL : Destination List is not populated properly.
+########## START ########## Booking : on http://m.villaplus.com/ 20-10-2017 15:49:16##########
+FAIL : Destination List is not populated properly.
+---------- START ---------- Booking ID : 16905754 : 20-10-2017 15:53:33----------
+--------StringAssert.Contains failed. The parameter 'value' is invalid. The value cannot be null. .
+--------Assert.AreEqual failed. Expected:<confBox>. Actual:<>. 
+--------Object reference not set to an instance of an object.
+########## END ########## Booking ID : 16905754 : 20-10-2017 16:07:32##########
+
+
+

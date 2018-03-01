@@ -1,0 +1,4 @@
+########## START ########## Booking : on http://m.villaplus.com/ 14-11-2017 12.43.25 PM##########
+FAIL : Destination List is not populated properly.
+########## START ########## Booking : on http://m.villaplus.com/ 14-11-2017 12.45.30 PM##########
+FAIL : Destination List is not populated properly.

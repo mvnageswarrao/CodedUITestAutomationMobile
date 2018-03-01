@@ -1,0 +1,14 @@
+########## START ########## Booking : on http://m.villaplus.com/ 15-11-2017 7.05.23 PM##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+########## START ########## Booking : on http://m.villaplus.com/ 15-11-2017 7.09.23 PM##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Destination List is populated properly.
+PASS : Selected "Costa del Sol" as a Center from Destination list.
+INFO : Browser was Closed as the Previous Month Control On Calender is Not Avaialble.
+########## START ########## Booking : on http://m.villaplus.com/ 15-11-2017 7.11.22 PM##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Destination List is populated properly.
+PASS : Selected "Algarve" as a Center from Destination list.

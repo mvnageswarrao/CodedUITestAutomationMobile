@@ -1,0 +1,10 @@
+########## START ########## Booking : on http://m.villaplus.com/ 14-11-2017 12.43.25 PM##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Selected "Cyprus" as a Center from Destination list.
+INFO : Browser was Closed as the Previous Month Control On Calender is Not Avaialble.
+########## START ########## Booking : on http://m.villaplus.com/ 14-11-2017 12.45.30 PM##########
+PASS : Home Page is Opened. : VERIFICATION
+PASS : Clicked "Destination" text box and opened the destination List
+PASS : Selected "Algarve" as a Center from Destination list.
+INFO : Browser was Closed as the Previous Month Control On Calender is Not Avaialble.

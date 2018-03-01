@@ -1,0 +1,616 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.9600.16384" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" Value="no" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="no" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="0" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" Value="1" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 8.1 Enterprise" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.3.9600.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="False" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1440" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="900" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers" />
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData0TitComboBox">
+      <ParameterName />
+      <Value Encoded="false">Mr</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData0FNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test Automation</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData0LNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test Last Name</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData0EmaEdit">
+      <ParameterName />
+      <Value Encoded="false">veera@ash.com</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData0ConEdit">
+      <ParameterName />
+      <Value Encoded="false">veera@ash.com</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData0AgeComboBox">
+      <ParameterName />
+      <Value Encoded="false">18-25</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData1TitComboBox">
+      <ParameterName />
+      <Value Encoded="false">Mr</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData1FNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData1LNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData2TitComboBox">
+      <ParameterName />
+      <Value Encoded="false">Master</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData2FNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test Child</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData2LNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Last Name</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData3TitComboBox">
+      <ParameterName />
+      <Value Encoded="false">Master</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData3FNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test </Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData3LNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData4TitComboBox">
+      <ParameterName />
+      <Value Encoded="false">Inf[M]</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData4FNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test Infant</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData4LNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test Last Name</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData5TitComboBox">
+      <ParameterName />
+      <Value Encoded="false">Inf[M]</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData5FNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="enterPaxDetails_Map.UIVillaPlusGroupDetailWindow.UIVillaPlusGroupDetailDocument.UIGroupDetailsData5LNaEdit">
+      <ParameterName />
+      <Value Encoded="false">Test</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="enterPaxDetails_Method">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="enterPaxDetails_Map">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIVillaPlusGroupDetailWindow" FriendlyName="Villa Plus | Group Details - Internet Explorer" SpecialControlType="BrowserWindow" SessionId="8064264">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Villa Plus | Group Details</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="Name" Operator="Contains">Villa Plus</PropertyCondition>
+            <PropertyCondition Name="ClassName">IEFrame</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Document" Id="UIVillaPlusGroupDetailDocument" FriendlyName="Villa Plus | Group Details" SpecialControlType="None">
+              <TechnologyName>Web</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Villa Plus | Group Details</WindowTitle>
+              </WindowTitles>
+              <AndCondition Id="SearchCondition">
+                <AndCondition Id="Primary">
+                  <PropertyCondition Name="ControlType">Document</PropertyCondition>
+                  <PropertyCondition Name="TagName">BODY</PropertyCondition>
+                  <PropertyCondition Name="Id">book</PropertyCondition>
+                  <PropertyCondition Name="RedirectingPage">False</PropertyCondition>
+                  <PropertyCondition Name="FrameDocument">False</PropertyCondition>
+                </AndCondition>
+                <FilterCondition Id="Secondary">
+                  <PropertyCondition Name="Title" Operator="Contains">Villa Plus</PropertyCondition>
+                  <PropertyCondition Name="AbsolutePath" Operator="Contains">/booking/group-details</PropertyCondition>
+                  <PropertyCondition Name="PageUrl" Operator="Contains">.villaplus.com/booking/group-details</PropertyCondition>
+                </FilterCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="ComboBox" Id="UIGroupDetailsData0TitComboBox" FriendlyName="GroupDetailsData[0].Title" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">Title_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.Title</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="Tit</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData0FNaEdit" FriendlyName="GroupDetailsData[0].FName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">FName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.FName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="FNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData0LNaEdit" FriendlyName="GroupDetailsData[0].LName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">LName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.LName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="LNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData0EmaEdit" FriendlyName="GroupDetailsData[0].Email" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">Email_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.Email</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="Ema</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData0ConEdit" FriendlyName="GroupDetailsData[0].ConfirmEmail" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">ConEmail_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.ConfirmEmail</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">name="GroupDetailsData[0].ConfirmEmail" </PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIGroupDetailsData0AgeComboBox" FriendlyName="GroupDetailsData[0].AgeGroup" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">__AgeGroup</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.AgeGroup</PropertyCondition>
+                    </AndCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIGroupDetailsData1TitComboBox" FriendlyName="GroupDetailsData[1].Title" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">Title_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.Title</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="Tit</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData1FNaEdit" FriendlyName="GroupDetailsData[1].FName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">FName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.FName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="FNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData1LNaEdit" FriendlyName="GroupDetailsData[1].LName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">LName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.LName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="LNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIGroupDetailsData2TitComboBox" FriendlyName="GroupDetailsData[2].Title" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">Title_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.Title</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="Tit</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData2FNaEdit" FriendlyName="GroupDetailsData[2].FName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">FName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.FName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="FNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData2LNaEdit" FriendlyName="GroupDetailsData[2].LName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">LName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.LName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="LNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIGroupDetailsData3TitComboBox" FriendlyName="GroupDetailsData[3].Title" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">Title_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.Title</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="Tit</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData3FNaEdit" FriendlyName="GroupDetailsData[3].FName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">FName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.FName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="FNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData3LNaEdit" FriendlyName="GroupDetailsData[3].LName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">LName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.LName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="LNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIGroupDetailsData4TitComboBox" FriendlyName="GroupDetailsData[4].Title" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">Title_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.Title</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="Tit</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData4FNaEdit" FriendlyName="GroupDetailsData[4].FName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">FName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.FName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="FNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData4LNaEdit" FriendlyName="GroupDetailsData[4].LName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">LName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.LName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="LNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ComboBox" Id="UIGroupDetailsData5TitComboBox" FriendlyName="GroupDetailsData[5].Title" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      <PropertyCondition Name="TagName">SELECT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">Title_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.Title</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="Tit</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData5FNaEdit" FriendlyName="GroupDetailsData[5].FName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">FName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.FName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="FNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Edit" Id="UIGroupDetailsData5LNaEdit" FriendlyName="GroupDetailsData[5].LName" SpecialControlType="None">
+                  <TechnologyName>Web</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Villa Plus | Group Details</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <AndCondition Id="Primary">
+                      <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      <PropertyCondition Name="TagName">INPUT</PropertyCondition>
+                      <PropertyCondition Name="Id" Operator="Contains">LName_</PropertyCondition>
+                      <PropertyCondition Name="Name" Operator="Contains">.LName</PropertyCondition>
+                    </AndCondition>
+                    <FilterCondition Id="Secondary">
+                      <PropertyCondition Name="Type">SINGLELINE</PropertyCondition>
+                      <PropertyCondition Name="ControlDefinition" Operator="Contains">id="LNa</PropertyCondition>
+                    </FilterCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>
